@@ -19,7 +19,7 @@ export default Vue.extend({
 		digits: { type: Number, required: true },
 	},
 	computed: {
-		splittedDigits(): string[] {
+		splittedDigits (): string[] {
 			return splitValue(this.digits);
 		},
 	},
